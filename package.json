@@ -1,0 +1,25 @@
+{
+  "name": "bonlerplate",
+  "author": "Eduardo Bonamigo <edbmuller@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/edbonamigo/bonlerplate.git",
+  "homepage": "edubon.code",
+  "source": [
+    "src/index.html"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch --public-url ./",
+    "build": "parcel build --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.6.2",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-parcel2": "^1.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "parcel": "^2.6.2"
+  }
+}
